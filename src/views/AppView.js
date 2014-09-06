@@ -69,7 +69,8 @@ define(function(require, exports, module) {
               this.pageView.contentMod2.setOpacity(0);
               break;
             case 'Coordenadas':
-              this.pageView.headerLocationSurf.setContent("<h6>COORDENADAS</h6><p>El Cortijo<br>Calle del Rosario, 11<br>Bollullos Par del Condado<br>Huelva<br><img class='map' src='img/mapa.png' /></p>");
+              // <p>El Cortijo<br>Calle del Rosario, 11<br>Bollullos Par del Condado<br>Huelva</p>
+              this.pageView.headerLocationSurf.setContent("<h6>COORDENADAS</h6><p>El Cortijo // Calle del Rosario, 11 // Bollullos Par del Condado // Huelva <img class='map' src='img/mapa.png' /></p>");
               this.pageView.contentMod.setOpacity(0);
               this.pageView.contentMod2.setOpacity(0);
               break;
