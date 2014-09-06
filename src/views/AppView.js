@@ -64,13 +64,13 @@ define(function(require, exports, module) {
               this.pageView.contentMod2.setOpacity(1);
               break;
             case 'El Momento':
-              this.pageView.headerLocationSurf.setContent('<h6>EL MOMENTO</h6><p>La ceremonia civil tendrá lugar el 29 de Noviembre de 2014 a las 19h en la Bodeguita Nueva de El Cortijo.<br>Seguidamente el cocktail, la cena y la barra libre serán en el mismo complejo.<br>Ser puntual es LO MÁS<br>Y confirmar asistencia... SUBLIME</p>');
+              this.pageView.headerLocationSurf.setContent('<h6>EL MOMENTO</h6><p>La ceremonia civil tendrá lugar el 29 de Noviembre de 2014 a las 19h en la Bodeguita Nueva de El Cortijo.<br>Seguidamente el cocktail, la cena y la barra libre serán en el mismo complejo.<br>Ser puntual es LO MÁS<br>Y confirmar asistencia, SUBLIME</p>');
               this.pageView.contentMod.setOpacity(0);
               this.pageView.contentMod2.setOpacity(0);
               break;
             case 'Coordenadas':
               // <p>El Cortijo<br>Calle del Rosario, 11<br>Bollullos Par del Condado<br>Huelva</p>
-              this.pageView.headerLocationSurf.setContent("<h6>COORDENADAS</h6><p>El Cortijo // Calle del Rosario, 11 // Bollullos Par del Condado // Huelva <img class='map' src='img/mapa.png' /></p>");
+              this.pageView.headerLocationSurf.setContent("<h6>COORDENADAS</h6><p>El Cortijo <br/> Calle del Rosario, 11 <br/> Bollullos Par del Condado, Huelva <img class='map' src='img/mapa.png' /></p>");
               this.pageView.contentMod.setOpacity(0);
               this.pageView.contentMod2.setOpacity(0);
               break;
@@ -85,7 +85,7 @@ define(function(require, exports, module) {
               this.pageView.contentMod2.setOpacity(0);
               break;
             case 'Consejos Siderales':
-              this.pageView.headerLocationSurf.setContent("<h6>CONSEJOS SIDERALES</h6><p>* Salón climatizado, no flipes con el abrigo<br><br>* Ponte guap@ pero cómod@<br><br>* En el perfil de Spotify del usuario 'margui Ru He' podréis ver la lista de canciones de la barra libre y aportar. SIn a b1, b2 y b3</li></ul></p>");
+              this.pageView.headerLocationSurf.setContent("<h6>CONSEJOS SIDERALES</h6><p>* Salón climatizado, no flipes con el abrigo<br><br>* Ponte guap@ pero cómod@<br><br>* Busca en Spotify el usuario 'Margui Ru He'. Las listas de la barra libre son la b1, b2 y b3. Haz tu aportación.</li></ul></p>");
               // #339999 y #FFFFFF
               this.pageView.contentMod.setOpacity(0);
               this.pageView.contentMod2.setOpacity(0);

@@ -92,7 +92,7 @@ define(function(require, exports, module) {
         }*/
     });
     this.contentSurf2 = new Surface({
-      content: "<h1>#LaBodaSideral</h1><h3>Marga y Pablo</h3>",
+      content: "<h1>#LaBodaSideral</h1><h2>Marga y Pablo</h2>",
       properties: {
         color: '#399',
         fontSize: '22px',

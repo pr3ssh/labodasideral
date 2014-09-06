@@ -15,7 +15,7 @@ define(function(require, exports, module) {
     this.rotatorView = new RotatorView({
       content: '<img src="img/icons/yellowplanet.png" width="' + windowWidth + '">',
       transition: {
-        duration: 1000,
+        duration: 1500,
         curve: 'linear'
       }
     });
@@ -23,7 +23,7 @@ define(function(require, exports, module) {
     this.backgroundSurf = new Surface({
       size: [undefined, undefined],
       properties: {
-        backgroundColor: '#ff9966'
+        backgroundColor: '#399'
       }
     });
 
