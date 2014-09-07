@@ -4,6 +4,12 @@ html, body {
     margin: 0 auto;
 }
 
+.outher {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .container {
     position: relative;
 }
