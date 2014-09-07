@@ -5,7 +5,9 @@ html, body {
 }
 
 .outher {
-    background: url('../img/fondo.jpg') no-repeat center;
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container {
@@ -18,7 +20,7 @@ html, body {
     position: absolute;
     top: 50%;
     margin-top: -390px;
-    background-image: url(../img/iphone.png);
+    background-image: url('../img/iphone.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
